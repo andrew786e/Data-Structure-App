@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Data Structure Visualization App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Data Structure Visualization App**! This project provides interactive visualizations of various data structures and algorithms to help users understand their inner workings. Currently, the app includes a visualization for **Depth-First Search (DFS)**, with plans to expand to other algorithms and data structures.
 
-## Available Scripts
+## Features
+- 🎨 **Visual Representation**: See how algorithms traverse and manipulate data structures.
+- 🎯 **Depth-First Search (DFS) Visualization**: Explore how DFS operates on graphs step by step.
+- 📈 **Intuitive Interface**: Designed for ease of understanding with real-time animations.
+- 🏗️ **Modular Architecture**: Easily extendable to add more algorithms in the future.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: React (or another framework of choice for visualization)
+- **Backend**: Node.js / Express (if needed)
+- **Algorithms**: JavaScript / TypeScript implementation of data structures and algorithms
+- **Canvas/SVG**: For rendering visual elements
 
-### `npm start`
+## How to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/data-structure-visualizer.git
+   cd data-structure-visualizer
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open your browser and visit `http://localhost:3000` to interact with the visualization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Implemented Algorithms
+- [x] **Depth-First Search (DFS)**
+- [ ] Breadth-First Search (BFS) *(Coming soon!)*
+- [ ] Dijkstra’s Algorithm *(Planned)*
+- [ ] Binary Search Tree Operations *(Planned)*
+- [ ] Sorting Algorithms *(Planned)*
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contributing
+We welcome contributions! If you’d like to improve the project:
+- Fork the repository.
+- Create a new branch for your feature (`git checkout -b feature-name`).
+- Commit your changes (`git commit -m "Added new feature"`).
+- Push to your branch and open a Pull Request.
 
-### `npm test`
+## License
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Plans
+- Improve UI for better visualization.
+- Add more data structures and algorithms.
+- Provide explanations alongside visualizations.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+📌 **Follow this project on GitHub and stay tuned for updates!**
