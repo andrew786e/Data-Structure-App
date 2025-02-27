@@ -17,7 +17,7 @@ Welcome to the **Data Structure Visualization App**! This project provides inter
 ## How to Run the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/data-structure-visualizer.git
+   git clone https://github.com/andrew786e/Data-Structure-App.git
    cd data-structure-visualizer
    ```
 2. Install dependencies:
