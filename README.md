@@ -44,9 +44,6 @@ We welcome contributions! If you’d like to improve the project:
 - Commit your changes (`git commit -m "Added new feature"`).
 - Push to your branch and open a Pull Request.
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
 ## Future Plans
 - Improve UI for better visualization.
 - Add more data structures and algorithms.
